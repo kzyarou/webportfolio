@@ -190,6 +190,14 @@
         align-items: center;
         justify-content: center;
         color: var(--retro-brown);
+        overflow: hidden;
+      }
+
+      .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
       }
 
       .project-content {
@@ -294,13 +302,26 @@
       .footer-links a:hover {
         color: var(--retro-gold);
       }
+
+      .profile-image {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
     </style>
   </head>
   <body>
     <!-- Navigation -->
     <nav>
       <div class="nav-container">
-        <div class="logo">Your Name</div>
+        <div class="logo">Kzyarou</div>
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -313,8 +334,8 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="section-container">
-        <h1>Hello, I'm <span>Your Name</span></h1>
-        <p>A passionate developer crafting digital experiences</p>
+        <h1>Hello, I'm <span>Zachary</span></h1>
+        <p>A passionate Full-Stack Developer</p>
         <a href="#projects" class="cta-button">View My Work</a>
       </div>
     </section>
@@ -327,11 +348,19 @@
         <div class="about-grid">
           <div>
             <p>
-              I'm a passionate developer with a keen eye for design and a love
-              for creating beautiful, functional web experiences. My journey in
-              web development started with a curiosity about how things work on
-              the internet, and it has evolved into a professional pursuit of
-              crafting digital solutions.
+              I'm Zachary Paul Robillon Rapis, a Grade 12 student with over a
+              year of experience in coding and web development. I specialize in
+              HTML, CSS, JavaScript, and Java, and I've worked on multiple
+              freelance projects that helped me develop real-world
+              problem-solving skills. I'm also the developer behind STEMediaHub,
+              a platform designed to bridge the gap between non-STEM or
+              non-Grade 11 students and the STEM strand. The site aims to make
+              the transition easier by providing a clear outline of what to
+              expect and how to prepare for the STEM journey. As a dedicated
+              full-stack developer, I'm passionate about building purposeful
+              digital experiences. I believe in continuous growth, and I'm
+              always ready to take on new challenges, learn new technologies,
+              and turn ideas into impactful solutions.
             </p>
             <p>
               When I'm not coding, you can find me exploring new technologies,
@@ -351,7 +380,9 @@
                 justify-content: center;
               "
             >
-              <span style="color: var(--retro-brown)">Your Photo Here</span>
+              <span style="color: var(--retro-brown)"
+                ><img src="zacharyimgpfp.jpg"
+              /></span>
             </div>
           </div>
         </div>
@@ -366,29 +397,40 @@
         <div class="projects-grid">
           <!-- Project 1 -->
           <div class="project-card">
-            <div class="project-image">Project Image</div>
+            <div class="project-image">
+              <img src="stemediahubss.png" alt="STEMediaHub Webpage" />
+            </div>
             <div class="project-content">
-              <h3>Project One</h3>
-              <p>A beautiful web application built with modern technologies.</p>
+              <h3>STEMediaHub</h3>
+              <p>A beautiful web application built for STEM students</p>
               <div class="project-tags">
-                <span class="project-tag">React</span>
-                <span class="project-tag">Node.js</span>
-                <span class="project-tag">MongoDB</span>
+                <span class="project-tag">HTMl</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Firebase</span>
+                <span class="project-tag">Cloudflare</span>
               </div>
-              <a href="#" class="cta-button">View Project</a>
+              <a
+                href="https://kzyarou.github.io/STEMediaHub/"
+                class="cta-button"
+                >View Project</a
+              >
             </div>
           </div>
 
           <!-- Project 2 -->
           <div class="project-card">
-            <div class="project-image">Project Image</div>
+            <div class="project-image"><img src="webportfolioss.png" /></div>
             <div class="project-content">
-              <h3>Project Two</h3>
-              <p>An innovative mobile app that solves real-world problems.</p>
+              <h3>Portfolio Website</h3>
+              <p>An introductory portfolio website for future clients</p>
               <div class="project-tags">
                 <span class="project-tag">React Native</span>
-                <span class="project-tag">Firebase</span>
-                <span class="project-tag">Redux</span>
+                <span class="project-tag">TypeScript</span>
+                <span class="project-tag">React</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">JavaScript</span>
               </div>
               <a href="#" class="cta-button">View Project</a>
             </div>
@@ -441,9 +483,9 @@
             <h3>Contact Information</h3>
             <p>Feel free to reach out through any of these channels.</p>
             <div class="contact-details">
-              <p>📧 your@email.com</p>
-              <p>📱 +1 (234) 567-890</p>
-              <p>📍 Your City, Country</p>
+              <p>📧 zacharyrapiz@email.com</p>
+              <p>📱 +63 9464 992 055</p>
+              <p>📍 Makati, Philippines</p>
             </div>
           </div>
         </div>
@@ -453,11 +495,11 @@
     <!-- Footer -->
     <footer>
       <div class="footer-container">
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>© 2025 Zachary Paul Rapis. All rights reserved.</p>
         <div class="footer-links">
-          <a href="#">Twitter</a>
+          <a href="https://www.instagram.com/zachthecashless/">Instagram</a>
           <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
+          <a href="https://github.com/kzyarou">GitHub</a>
         </div>
       </div>
     </footer>
